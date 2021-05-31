@@ -19,7 +19,7 @@ function App() {
             <button onClick={() => dispatch(incremented())}>
               +1
             </button>
-            <button>
+            <button onClick={() => dispatch(amountAdded(2))}>
               +2
             </button>
           </div>
